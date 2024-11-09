@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+plotly
+pulp
+thefuzz
+python-Levenshtein
+streamlit
+plotly
+
