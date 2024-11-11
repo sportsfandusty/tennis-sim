@@ -56,7 +56,7 @@ num_simulations = st.sidebar.select_slider(
     options=simulation_steps,
     value=100
 )
-st.sidebar.header("created by Dusty Schmidt")
+
 
 
 
@@ -170,4 +170,4 @@ if st.sidebar.button("Run Simulation"):
         st.write(f"**Std Dev:** {np.std(player2_fantasy_points):.2f}")
     
 
-
+st.sidebar.header("created by Dusty Schmidt")
