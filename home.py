@@ -13,7 +13,7 @@ import streamlit.components.v1 as components
 st.set_page_config(page_title="Tennis Sim", layout="wide")
 st.title("Tennis Match Sim")
 st.subheader("<<< configure simulation in sidebar")
-st.sidebar.header("v0.1.1-alpha")
+st.sidebar.header("v0.2.1-alpha")
 @st.cache_data
 def get_player_data():
     filepath = 'data/tennis/player_stats_with_id.csv'  # Adjust the path as needed
